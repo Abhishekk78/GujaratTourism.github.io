@@ -1,0 +1,104 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/Registration.css">
+</head>
+<body>
+    <form action="home.php" method="post">
+       
+     <div class="container">
+
+
+        <img
+        src="/registertion.jpeg"
+        alt="Registration"
+        class="Registration"
+        width="65px"
+      />
+       <br>
+        <label for="fname">
+            <input type="text" placeholder="Enter Your First Name"  class="fname" name="fname" required>
+        </label>
+          
+        <img src="/user.png" alt="name" class="img2" height="50px">
+
+
+         <br>
+        <label for="lname">
+            <input type="text" placeholder="Enter Your Last Name"  class="lname" name="lname" required>
+        </label>
+         
+       <img src="/user.png" alt="name" class="img3" height="50px">
+
+         
+        <label for="email">
+            <input type="email" placeholder="Enter Your Email"  class="email" name="email" required>
+        </label>
+         
+        <img src="/email.png" alt="email" class="img4" height="50px">
+
+           <label for="phone">
+            <input type="number" placeholder="Enter Your Phone Number"  class="phone" name="phone" required>
+        </label>
+         
+        <img src="/phone-call.png" alt="phone" class="img5" height="50px">
+          
+           <input type="date" name="date" class="date" required>
+          
+           <img src="/calendar.png" alt="date" class="img6" height="50px">
+        
+         <select value="Select" name="gen" class="gen"  required>
+            <option value="">Select</option>
+            <option value="Male" >Male</option>
+            <option value="Female">Female</option>
+         </select>  
+
+         <img src="/checklist.png" alt="select" class="img7" height="50px">
+
+
+
+         <h1 class="h1">Will you be requiring any of the following:</h1>
+
+
+
+         <select name="book" class="select1" value="book" required>
+            <option value="" >Select</option>
+            <option value="Flight" >Flight</option>
+
+            <option value="Hotel" >Hotel</option>
+            <option value="Guide" >Guide</option>
+            <option value="Carcabe">Carcabe</option>
+            <option value="Other" >Other</option>
+         </select>
+         
+         <img src="/checklist.png" alt="select" class="img8" height="50px">
+
+
+         <h1 class="h">Comments</h1>
+
+         <textarea name="question" rows="5" cols="5"
+         placeholder="Enter Your Text Here"
+          class="textarea" required>
+           
+         </textarea>  
+        
+     
+
+          
+        <label for="btn">
+           <a href="home.php"><input type="submit" value="submit" name="submit" class="btn"> 
+            
+           </a>
+        </label>
+
+     </div>   
+     
+    </form>
+</body>
+</html>
+

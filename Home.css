@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-image: url("/wallpaper.jpg");
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo,
+img {
+  margin: auto 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.nav,
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px 35px;
+}
+
+.nav,
+ul,
+li {
+  margin: 0 50px;
+  margin-top: 5px;
+}
+
+.nav,
+ul,
+li,
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(244, 235, 235);
+}
+
+.nav,
+ul,
+li,
+a:hover {
+  color: brown;
+}
+
+.login,
+.signup {
+  margin: 0 10px;
+  height: 35px;
+   
+  background-color: rgb(9, 9, 248);
+  color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  display: inline-block;
+    
+  text-align: center;
+  line-height: 10px;
+}
+
+.login a,
+.signup a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  overflow: hidden;
+  padding: 5px 10px;
+}
+
+.login a:hover,
+.signup a:hover {
+  color: brown;
+}
+
+p {
+  text-align: center;
+  color: white;
+  margin: 190px 125px;
+  font-size: 5.5rem;
+  
+
+}
+
+p:hover {
+  color: brown;
+}
+
+h1 {
+  margin-top: 65px;
+  color: black;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1:hover {
+  color: brown;
+}
+
+.card1-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  margin-top: 85px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 45%;
+  max-width: 400px;
+  margin: 20px;
+  background-color: white;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card1 .img1,
+.card2 .img2,
+.card3 .img3,
+.card4 .img4,
+.card5 .img5,
+.card6 .img6 {
+  margin: 5px 4px ;
+  width: 98%;
+  height: auto;
+}
+
+.card1 .h41,
+.card2 .h42,
+.card3 .h43,
+.card4 .h44,
+.card5 .h45,
+.card6 .h46 {
+  font-size: 1.5rem;
+  margin: 20px 0 10px 20px;
+  
+}
+
+.card1 .h41:hover,
+.card2 .h42:hover,
+.card3 .h43:hover,
+.card4 .h44:hover,
+.card5 .h45:hover,
+.card6 .h46:hover {
+  color: brown;
+}
+
+.card1 .p1,
+.card2 .p2,
+.card3 .p3,
+.card4 .p4,
+.card5 .p5,
+.card6 .p6 {
+  margin: 0 20px 20px;
+  color: black;
+  font-size: 1rem;
+}
+
+.p1:hover,
+.p2:hover,
+.p3:hover,
+.p4:hover,
+.p5:hover,
+.p6:hover {
+  color: brown;
+}
+
+.card1 .btn1,
+.card2 .btn2,
+.card3 .btn3,
+.card4 .btn4,
+.card5 .btn5,
+.card6 .btn6 {
+  margin: 10px 20px 20px;
+  background-color: rgb(9, 9, 248);
+  color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  display: block;
+  overflow: hidden;
+}
+
+.card1 .btn1 a,
+.card2 .btn2 a,
+.card3 .btn3 a,
+.card4 .btn4 a,
+.card5 .btn5 a,
+.card6 .btn6 a {
+  color: white;
+  text-decoration: none;
+}
+
+.card1 .btn1 a:hover,
+.card2 .btn2 a:hover,
+.card3 .btn3 a:hover,
+.card4 .btn4 a:hover,
+.card5 .btn5 a:hover,
+.card6 .btn6 a:hover {
+  color: brown;
+}
+
+.video-container {
+  
+  position: relative;
+  width: 85%;
+  padding-bottom: 56.25%; 
+  height: 23px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+
+.video-container iframe {
+  position: absolute;
+  top: 23px;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  border: none;
+}
+
+
+
+.footer {
+  
+  height: 100px;
+  width: 100%;
+  background-color: steelblue;
+  padding: 20px 0;
+  text-align: center;
+  
+  
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+  margin: 10px 15px;
+}
+
+.Copyright {
+  color: white;
+  margin: 20px;
+  font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+
+*{
+  overflow-x: hidden;
+}
+ 
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav ul li {
+    margin: 10px 0;
+  }
+
+  .p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+
+  .p:hover {
+    color: brown;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h1:hover {
+    color: brown;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6 {
+    width: 90%;
+  }
+
+  .video-container {
+    padding-bottom: 100%; 
+    margin-bottom: -75px;
+    width: 89%;
+  }
+}
+  
+
+
+@media (max-height: 1000px) {
+  .p {
+    font-size: 1.2rem;
+  }
+
+  .p:hover {
+    color: brown;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .login,
+  .signup {
+
+    width: 120px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+
+  .card1 .h41,
+  .card2 .h42,
+  .card3 .h43,
+  .card4 .h44,
+  .card5 .h45,
+  .card6 .h46 {
+    font-size: 1.2rem;
+  }
+
+  .card1 .p1,
+  .card2 .p2,
+  .card3 .p3,
+  .card4 .p4,
+  .card5 .p5,
+  .card6 .p6 {
+    font-size: 0.9rem;
+  }
+
+  .card1 .btn1,
+  .card2 .btn2,
+  .card3 .btn3,
+  .card4 .btn4,
+  .card5 .btn5,
+  .card6 .btn6 {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 0.9rem;
+  }
+
+  .footer{
+    overflow-y: hidden;
+  }
+
+  .footer img {
+    width: 16px;
+    height: 30px;
+  }
+
+  .Copyright {
+    overflow-y: hidden;
+    margin-top:0px ;
+    font-size: 10px;
+  }
+}
+
+.video-container {
+  padding-bottom: 100%; 
+  margin-bottom: -75px;
+}
+
+

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+   
+    background-image: url('/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    height: auto;
+    max-width: 90%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.login {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 25px; 
+    margin-left: 195px;
+}
+
+.uname, .pass {
+    margin-top: 15px; 
+    margin-left: 85px;
+    width: 50%;
+    height: 23px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.img2{
+    display: flex;
+    margin-left: 25px;
+    margin-top: -35px;
+}
+
+.img3{
+    display: flex;
+    margin-left: 25px;
+    margin-top: -35px;
+}
+
+.fpass {
+    margin-left: 92px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.fpass,a{
+    text-decoration: none;
+}
+
+.btn {
+    margin-left: 150px;
+    margin-top: 30px;
+    background-color: rgb(9, 9, 248);
+    color: white;
+    width: 156px;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .uname, .pass {
+        width: 50%;
+    }
+    .img2{
+        display: flex;
+        margin-left: 25px;
+        margin-top: -35px;
+    }
+    .img3{
+        display: flex;
+        margin-left: 25px;
+        margin-top: -35px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .uname, .pass {
+        width: 50%;
+    }
+
+    .login {
+        width: 80px;
+        height: 80px;
+        margin-left: 100px;
+    }
+
+    .btn {
+        margin-left: 80px;
+        width: 50%;
+        font-size: 18px;
+    }
+
+    .fpass {
+        font-size: 14px;
+    }
+    .img2{
+        display: flex;
+        margin-left: 25px;
+        margin-top: -35px;
+    }
+    .img3{
+        display: flex;
+        margin-left: 25px;
+        margin-top: -35px;
+    }
+   
+}

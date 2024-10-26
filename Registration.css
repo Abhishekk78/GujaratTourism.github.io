@@ -1,0 +1,349 @@
+body {
+    background-image: url('/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    height: auto;
+    width: 90%;
+    max-width: 400px;
+    border: 2px solid red;
+    margin: 65px auto;
+    padding: 20px;
+}
+
+.Registration {
+    height: 100px;
+    width: 100px;
+    margin: 30px 183px;
+    display: flex;
+}
+
+input, select, textarea {
+    margin-left: 105px;
+    margin-top: 25px;
+    width: 70%;
+    height: 35px;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.textarea {
+    margin-left: 85px;
+    height: 100px;
+    width: 75%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+h1:hover {
+    color: brown;
+}
+
+.h{
+    
+    margin-left: -225px;
+}
+
+
+.btn {
+    margin-top: 30px;
+    background-color: rgb(9, 9, 248);
+    color: white;
+    width: 55%;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    color: brown;
+}
+
+.img2{
+
+    margin-top:-258px;
+    margin-left: 3px;
+}
+
+.img3{
+    margin-top:-258px;
+    margin-left: 3px;
+}
+.img4{
+    margin-top:-258px;
+    margin-left: 3px;
+}
+
+.img5{
+    margin-top:-258px;
+    margin-left: 3px;
+}
+
+.img6{
+    margin-top:-258px;
+    margin-left: 3px;
+}
+
+.img7{
+    margin-top:-258px;
+    margin-left: 3px;
+}
+
+.img8{
+    margin-top:-258px;
+    margin-left: 3px;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+ 
+    body {
+        background-image: url('/wallpaper.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 170vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .container {
+        height: auto;
+        width: 90%;
+        max-width: 400px;
+        border: 2px solid red;
+        margin: 65px auto;
+        padding: 20px;
+    }
+    
+    .Registration {
+        height: 100px;
+        width: 100px;
+        margin: 30px 163px;
+        display: flex;
+    }
+    
+    input, select, textarea {
+        margin-left: 105px;
+        margin-top: 25px;
+        width: 70%;
+        height: 35px;
+        border: 2px solid red;
+        border-radius: 5px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    
+    .textarea {
+        height: 100px;
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    h1:hover {
+        color: brown;
+    }
+    
+    .btn {
+        margin-top: 30px;
+        background-color: rgb(9, 9, 248);
+        color: white;
+        width: 55%;
+        font-size: 20px;
+        border: 2px solid red;
+        border-radius: 10px;
+        padding: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .btn:hover {
+        color: brown;
+    }
+
+
+    .container {
+        width: 95%;
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+    .img2{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+    
+    .img3{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+    .img4{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+    
+    .img5{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+    
+    .img6{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+    
+    .img7{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+
+    .img8{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        background-image: url('/wallpaper.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 170vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .container {
+        height: auto;
+        width: 90%;
+        max-width: 400px;
+        border: 2px solid red;
+        margin: 65px auto;
+        padding: 20px;
+    }
+    
+    .Registration {
+        height: 100px;
+        width: 100px;
+        margin: 30px 163px;
+        display: flex;
+    }
+    
+    input, select, textarea {
+        margin-left: 105px;
+        margin-top: 25px;
+        width: 70%;
+        height: 35px;
+        border: 2px solid red;
+        border-radius: 5px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    
+    .textarea {
+        height: 100px;
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    h1:hover {
+        color: brown;
+    }
+    
+    .btn {
+        margin-top: 30px;
+        background-color: rgb(9, 9, 248);
+        color: white;
+        width: 55%;
+        font-size: 20px;
+        border: 2px solid red;
+        border-radius: 10px;
+        padding: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .btn:hover {
+        color: brown;
+    }
+
+
+    .container {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+    .img2{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+    
+    .img3{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+    .img4{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+    
+    .img5{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+    
+    .img6{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+    
+    .img7{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+
+    .img8{
+        margin-top:-258px;
+        margin-left: 3px;
+    }
+}

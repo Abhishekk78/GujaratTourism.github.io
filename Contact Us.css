@@ -1,0 +1,82 @@
+body {
+    background-image: url('/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid red;
+    height: 625px;
+    width: 100%;
+    max-width: 465px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.img1 {
+    display: block;
+    margin: 25px auto;
+    height: 60px;
+    width: 60px;
+}
+
+.input1, .input2, .msg {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 23px;
+    width: 70%;
+    max-width: 390px;
+    margin: 25px auto;
+    display: block;
+    padding: 5px;
+}
+
+.img2, .img3, .img4 {
+    display: flex;
+    margin-left: -12px;
+    margin-top: -65px;
+}
+
+.btn {
+    background-color: rgb(9, 9, 248);
+    color: white;
+    padding: 20px;
+    width: 50%;
+    max-width: 152px;
+    margin: 35px auto;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+}
+
+.btn:hover {
+    color: brown;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        justify-content: center;
+        height: auto;
+    }
+
+    .input1, .input2, .msg {
+        max-width: 100%;
+    }
+
+    .btn {
+        max-width: 100%;
+    }
+    .img2,.img3,.img4{
+      margin-left: -12px;
+    }
+}
